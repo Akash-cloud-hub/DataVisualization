@@ -39,5 +39,5 @@ x = np.array(['A','B','C','D','E'])
 y = np.array([3,8,10,11,19])
 
 plt.clf()
-plt.bar(x,y)
+plt.bar(x,y,color="red",width = 0.1)
 plt.show()
